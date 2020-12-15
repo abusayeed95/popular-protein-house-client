@@ -46,6 +46,10 @@
   background-color: #ffae00;
 }
 
+.loader-area {
+  height: 50vh;
+}
+
 @media (max-width: 768px) {
   .before {
     width: 80px;
