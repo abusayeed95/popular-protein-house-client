@@ -1,0 +1,27 @@
+.banner {
+  height: 500px;
+}
+
+.banner-2 {
+  height: 500px;
+}
+.banner-inner {
+  width: 50vw;
+}
+
+@media (max-width: 768px) {
+  .banner-inner {
+    width: 70vw;
+  }
+  .banner-2 {
+    width: 70vw;
+  }
+}
+@media (max-width: 576px) {
+  .banner-inner {
+    width: 90vw;
+  }
+  .banner-2 {
+    width: 90vw;
+  }
+}

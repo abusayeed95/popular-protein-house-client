@@ -1,0 +1,66 @@
+.yellow {
+  color: #ffae00;
+}
+.coffee {
+  color: #680000;
+}
+
+.primary-btn {
+  border: 2px solid #680000;
+  color: #ffae00;
+  background-color: #680000;
+  border-radius: 5px;
+  margin: 0.5rem;
+  transition: 0.3s ease;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+.primary-btn:hover {
+  background-color: #ffae00;
+  border: 2px solid #ffae00;
+  color: #680000;
+}
+
+.secondary-btn {
+  border: 2px solid #ffae00;
+  color: #680000;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0.5rem;
+  transition: 0.3s ease;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+.secondary-btn:hover {
+  background-color: #ffae00;
+}
+
+.before {
+  height: 5px;
+  width: 150px;
+  background-color: #ffae00;
+}
+.after {
+  height: 5px;
+  width: 150px;
+  background-color: #ffae00;
+}
+
+@media (max-width: 768px) {
+  .before {
+    width: 80px;
+  }
+  .after {
+    width: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .before {
+    width: 50px;
+    height: 3px;
+  }
+  .after {
+    width: 50px;
+    height: 3px;
+  }
+}

@@ -1,0 +1,26 @@
+#navigation {
+  background-color: #680000;
+}
+
+#navigation a {
+  color: #ffae00;
+  font-weight: 500;
+}
+#navigation .nav-link {
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  transition: 0.3s ease;
+  padding: 0 8px;
+}
+#navigation .nav-link:hover {
+  border-bottom: 3px solid #ffae00;
+  border-left: 3px solid #ffae00;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.logo {
+  height: 50px;
+}
